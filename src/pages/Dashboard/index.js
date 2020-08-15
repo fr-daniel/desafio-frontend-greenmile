@@ -49,7 +49,7 @@ const Dashboard = () => {
                     <span>(@{usuario.login})</span>
                   </strong>
                   <p>{usuario.bio || 'Sem biografia'}</p>
-                  <a href="akka">{usuario.html_url}</a>
+                  <a href={usuario.html_url}>{usuario.html_url}</a>
                 </div>
               </UserInfo>
 
